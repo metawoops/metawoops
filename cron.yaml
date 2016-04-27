@@ -1,0 +1,7 @@
+cron:
+- description: Feed new posts
+  url: /feed
+  schedule: every 5 mins
+- description: Feed new posts
+  url: /delete/1h
+  schedule: every 45 mins
